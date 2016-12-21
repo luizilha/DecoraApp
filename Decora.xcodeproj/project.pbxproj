@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C985B51E0AD49F006A5C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C985B41E0AD49F006A5C4A /* AppDelegate.swift */; };
+		75C985B71E0AD49F006A5C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C985B61E0AD49F006A5C4A /* ViewController.swift */; };
+		75C985BA1E0AD49F006A5C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C985B81E0AD49F006A5C4A /* Main.storyboard */; };
+		75C985BC1E0AD49F006A5C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C985BB1E0AD49F006A5C4A /* Assets.xcassets */; };
+		75C985BF1E0AD49F006A5C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C985BD1E0AD49F006A5C4A /* LaunchScreen.storyboard */; };
+		75C985CA1E0AD49F006A5C4A /* DecoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C985C91E0AD49F006A5C4A /* DecoraTests.swift */; };
+		75C985D51E0AD49F006A5C4A /* DecoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C985D41E0AD49F006A5C4A /* DecoraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C985C61E0AD49F006A5C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C985A91E0AD49F006A5C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C985B01E0AD49F006A5C4A;
+			remoteInfo = Decora;
+		};
+		75C985D11E0AD49F006A5C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C985A91E0AD49F006A5C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C985B01E0AD49F006A5C4A;
+			remoteInfo = Decora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C985B11E0AD49F006A5C4A /* Decora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C985B41E0AD49F006A5C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75C985B61E0AD49F006A5C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75C985B91E0AD49F006A5C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75C985BB1E0AD49F006A5C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C985BE1E0AD49F006A5C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75C985C01E0AD49F006A5C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C985C51E0AD49F006A5C4A /* DecoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C985C91E0AD49F006A5C4A /* DecoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoraTests.swift; sourceTree = "<group>"; };
+		75C985CB1E0AD49F006A5C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C985D01E0AD49F006A5C4A /* DecoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C985D41E0AD49F006A5C4A /* DecoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoraUITests.swift; sourceTree = "<group>"; };
+		75C985D61E0AD49F006A5C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C985AE1E0AD49F006A5C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985C21E0AD49F006A5C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985CD1E0AD49F006A5C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C985A81E0AD49F006A5C4A = {
+			isa = PBXGroup;
+			children = (
+				75C985B31E0AD49F006A5C4A /* Decora */,
+				75C985C81E0AD49F006A5C4A /* DecoraTests */,
+				75C985D31E0AD49F006A5C4A /* DecoraUITests */,
+				75C985B21E0AD49F006A5C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C985B21E0AD49F006A5C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C985B11E0AD49F006A5C4A /* Decora.app */,
+				75C985C51E0AD49F006A5C4A /* DecoraTests.xctest */,
+				75C985D01E0AD49F006A5C4A /* DecoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C985B31E0AD49F006A5C4A /* Decora */ = {
+			isa = PBXGroup;
+			children = (
+				75C985B41E0AD49F006A5C4A /* AppDelegate.swift */,
+				75C985B61E0AD49F006A5C4A /* ViewController.swift */,
+				75C985B81E0AD49F006A5C4A /* Main.storyboard */,
+				75C985BB1E0AD49F006A5C4A /* Assets.xcassets */,
+				75C985BD1E0AD49F006A5C4A /* LaunchScreen.storyboard */,
+				75C985C01E0AD49F006A5C4A /* Info.plist */,
+			);
+			path = Decora;
+			sourceTree = "<group>";
+		};
+		75C985C81E0AD49F006A5C4A /* DecoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C985C91E0AD49F006A5C4A /* DecoraTests.swift */,
+				75C985CB1E0AD49F006A5C4A /* Info.plist */,
+			);
+			path = DecoraTests;
+			sourceTree = "<group>";
+		};
+		75C985D31E0AD49F006A5C4A /* DecoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75C985D41E0AD49F006A5C4A /* DecoraUITests.swift */,
+				75C985D61E0AD49F006A5C4A /* Info.plist */,
+			);
+			path = DecoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C985B01E0AD49F006A5C4A /* Decora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C985D91E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "Decora" */;
+			buildPhases = (
+				75C985AD1E0AD49F006A5C4A /* Sources */,
+				75C985AE1E0AD49F006A5C4A /* Frameworks */,
+				75C985AF1E0AD49F006A5C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decora;
+			productName = Decora;
+			productReference = 75C985B11E0AD49F006A5C4A /* Decora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C985C41E0AD49F006A5C4A /* DecoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C985DC1E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "DecoraTests" */;
+			buildPhases = (
+				75C985C11E0AD49F006A5C4A /* Sources */,
+				75C985C21E0AD49F006A5C4A /* Frameworks */,
+				75C985C31E0AD49F006A5C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C985C71E0AD49F006A5C4A /* PBXTargetDependency */,
+			);
+			name = DecoraTests;
+			productName = DecoraTests;
+			productReference = 75C985C51E0AD49F006A5C4A /* DecoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75C985CF1E0AD49F006A5C4A /* DecoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C985DF1E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "DecoraUITests" */;
+			buildPhases = (
+				75C985CC1E0AD49F006A5C4A /* Sources */,
+				75C985CD1E0AD49F006A5C4A /* Frameworks */,
+				75C985CE1E0AD49F006A5C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C985D21E0AD49F006A5C4A /* PBXTargetDependency */,
+			);
+			name = DecoraUITests;
+			productName = DecoraUITests;
+			productReference = 75C985D01E0AD49F006A5C4A /* DecoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C985A91E0AD49F006A5C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luiz Ilha";
+				TargetAttributes = {
+					75C985B01E0AD49F006A5C4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7C5C2D7B88;
+						ProvisioningStyle = Automatic;
+					};
+					75C985C41E0AD49F006A5C4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7C5C2D7B88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75C985B01E0AD49F006A5C4A;
+					};
+					75C985CF1E0AD49F006A5C4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7C5C2D7B88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75C985B01E0AD49F006A5C4A;
+					};
+				};
+			};
+			buildConfigurationList = 75C985AC1E0AD49F006A5C4A /* Build configuration list for PBXProject "Decora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C985A81E0AD49F006A5C4A;
+			productRefGroup = 75C985B21E0AD49F006A5C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C985B01E0AD49F006A5C4A /* Decora */,
+				75C985C41E0AD49F006A5C4A /* DecoraTests */,
+				75C985CF1E0AD49F006A5C4A /* DecoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C985AF1E0AD49F006A5C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C985BF1E0AD49F006A5C4A /* LaunchScreen.storyboard in Resources */,
+				75C985BC1E0AD49F006A5C4A /* Assets.xcassets in Resources */,
+				75C985BA1E0AD49F006A5C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985C31E0AD49F006A5C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985CE1E0AD49F006A5C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C985AD1E0AD49F006A5C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C985B71E0AD49F006A5C4A /* ViewController.swift in Sources */,
+				75C985B51E0AD49F006A5C4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985C11E0AD49F006A5C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C985CA1E0AD49F006A5C4A /* DecoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C985CC1E0AD49F006A5C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C985D51E0AD49F006A5C4A /* DecoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C985C71E0AD49F006A5C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C985B01E0AD49F006A5C4A /* Decora */;
+			targetProxy = 75C985C61E0AD49F006A5C4A /* PBXContainerItemProxy */;
+		};
+		75C985D21E0AD49F006A5C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C985B01E0AD49F006A5C4A /* Decora */;
+			targetProxy = 75C985D11E0AD49F006A5C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75C985B81E0AD49F006A5C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C985B91E0AD49F006A5C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75C985BD1E0AD49F006A5C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C985BE1E0AD49F006A5C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C985D71E0AD49F006A5C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C985D81E0AD49F006A5C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C985DA1E0AD49F006A5C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = Decora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.Decora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75C985DB1E0AD49F006A5C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = Decora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.Decora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		75C985DD1E0AD49F006A5C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = DecoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.DecoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decora.app/Decora";
+			};
+			name = Debug;
+		};
+		75C985DE1E0AD49F006A5C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = DecoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.DecoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decora.app/Decora";
+			};
+			name = Release;
+		};
+		75C985E01E0AD49F006A5C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = DecoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.DecoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Decora;
+			};
+			name = Debug;
+		};
+		75C985E11E0AD49F006A5C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7C5C2D7B88;
+				INFOPLIST_FILE = DecoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilha.DecoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Decora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C985AC1E0AD49F006A5C4A /* Build configuration list for PBXProject "Decora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C985D71E0AD49F006A5C4A /* Debug */,
+				75C985D81E0AD49F006A5C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C985D91E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "Decora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C985DA1E0AD49F006A5C4A /* Debug */,
+				75C985DB1E0AD49F006A5C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75C985DC1E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "DecoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C985DD1E0AD49F006A5C4A /* Debug */,
+				75C985DE1E0AD49F006A5C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75C985DF1E0AD49F006A5C4A /* Build configuration list for PBXNativeTarget "DecoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C985E01E0AD49F006A5C4A /* Debug */,
+				75C985E11E0AD49F006A5C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C985A91E0AD49F006A5C4A /* Project object */;
+}
